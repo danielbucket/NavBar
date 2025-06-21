@@ -1,0 +1,33 @@
+.dropdown-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.dropdown-label {
+  height: 100%;
+  width: 100%;
+  border: 2px solid rgb(36, 80, 255);
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgb(65 38 158 / 22%);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropdown-button {
+
+  border: 1px solid red;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dropdown-button:hover {
+  background-color: skyblue;
+}
+
+.icon {
+  margin-right: 8px;
+}

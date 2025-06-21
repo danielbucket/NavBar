@@ -1,0 +1,61 @@
+@keyframes fadeInOut {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideOut {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-100%);
+  }
+}
+
+.fade-element {
+  /* background-color: #193df4; */
+  /* animation: fadeIn 1.5s ease-in-out; */
+  /* animation: fadeInOut 5s ease-in-out infinite; */
+  /* animation: slideIn 1.5s ease-in-out infinite alternate; */
+  /* animation: slideOut 1.5s ease-in-out infinite alternate; */
+}
+
+.navbar-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  background-color: rgb(122, 143, 39);
+}
+
+.dropdown-container {
+  width: 150px;
+  height: 100%;
+}
+
+.main-container {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
